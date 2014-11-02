@@ -1,118 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="13c1dc98-1dbc-4e73-a74c-d241ec8e2716" name="Default" comment="Removed jQuery library. Why bootstrap is always bundled with jQuery? :(">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/bootstrap.min.css" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\Gruntfile.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\bower.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\dist\css\bootstrap-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\dist\css\bootstrap-theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\dist\css\bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\dist\css\bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\dist\css\bootstrap.css.map" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\dist\css\bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\dist\fonts\glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\dist\fonts\glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\dist\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\dist\fonts\glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\dist\js\bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\dist\js\bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\fonts\glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\fonts\glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\fonts\glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\grunt\bs-glyphicons-data-generator.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\grunt\bs-lessdoc-parser.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\grunt\bs-raw-files-generator.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\grunt\sauce_browsers.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\js\affix.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\js\alert.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\js\button.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\js\carousel.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\js\collapse.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\js\dropdown.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\js\modal.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\js\popover.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\js\scrollspy.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\js\tab.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\js\tooltip.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\js\transition.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\less\alerts.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\less\badges.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\less\bootstrap.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\less\breadcrumbs.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\less\button-groups.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\less\buttons.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\less\carousel.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\less\close.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\less\code.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\less\component-animations.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\less\dropdowns.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\less\forms.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\less\glyphicons.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\less\grid.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\less\input-groups.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\less\jumbotron.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\less\labels.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\less\list-group.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\less\media.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\less\mixins.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\less\mixins\alerts.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\less\mixins\background-variant.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\less\mixins\border-radius.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\less\mixins\buttons.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\less\mixins\center-block.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\less\mixins\clearfix.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\less\mixins\forms.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\less\mixins\gradients.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\less\mixins\grid-framework.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\less\mixins\grid.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\less\mixins\hide-text.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\less\mixins\image.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\less\mixins\labels.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\less\mixins\list-group.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\less\mixins\nav-divider.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\less\mixins\nav-vertical-align.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\less\mixins\opacity.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\less\mixins\pagination.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\less\mixins\panels.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\less\mixins\progress-bar.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\less\mixins\reset-filter.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\less\mixins\resize.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\less\mixins\responsive-visibility.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\less\mixins\size.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\less\mixins\tab-focus.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\less\mixins\table-row.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\less\mixins\text-emphasis.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\less\mixins\text-overflow.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\less\mixins\vendor-prefixes.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\less\modals.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\less\navbar.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\less\navs.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\less\normalize.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\less\pager.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\less\pagination.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\less\panels.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\less\popovers.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\less\print.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\less\progress-bars.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\less\responsive-embed.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\less\responsive-utilities.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\less\scaffolding.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\less\tables.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\less\theme.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\less\thumbnails.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\less\tooltip.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\less\type.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\less\utilities.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\less\variables.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\less\wells.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ai\WebstormProjects\AngularAjaxComboBox\bower_components\bootstrap\package.json" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sample.html" afterPath="$PROJECT_DIR$/Sample.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+    <list default="true" id="13c1dc98-1dbc-4e73-a74c-d241ec8e2716" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AngularPagedCombobox.iws" />
@@ -140,11 +29,21 @@
       <file leaf-file-name="Sample.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Sample.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7688356" vertical-offset="106" max-vertical-offset="690">
+            <state vertical-scroll-proportion="1.0" vertical-offset="0" max-vertical-offset="690">
               <caret line="37" column="12" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="1260">
+              <caret line="45" column="2" selection-start-line="45" selection-start-column="2" selection-end-line="45" selection-end-column="2" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -235,6 +134,7 @@
         <option value="$PROJECT_DIR$/Scripts/kel.ui.js" />
         <option value="$PROJECT_DIR$/Sample.html" />
         <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -246,10 +146,9 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="960" />
+    <option name="width" value="960" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -446,19 +345,32 @@
       <option name="number" value="Default" />
       <updated>1414512042892</updated>
     </task>
+    <task id="LOCAL-00001" summary="Removed jQuery library. Why bootstrap is always bundled with jQuery? :(">
+      <created>1414940868672</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1414940868672</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Removed jQuery library. Why bootstrap is always bundled with jQuery? :(">
+      <created>1414941069994</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1414941069994</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="960" y="0" width="960" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32946146" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3351235" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.184375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39809927" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -918,9 +830,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="1260">
+          <caret line="45" column="2" selection-start-line="45" selection-start-column="2" selection-end-line="45" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Sample.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7688356" vertical-offset="106" max-vertical-offset="690">
+        <state vertical-scroll-proportion="1.0" vertical-offset="0" max-vertical-offset="690">
           <caret line="37" column="12" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
           <folding>
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
