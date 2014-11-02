@@ -2,14 +2,11 @@ var app = angular.module('TheApp', ['ngResource', 'kel.ui']);
 
 
 
-app.controller('TheController', ['$http', '$resource', '$scope', function($http, $resource, $scope) {
+app.controller('TheController', ['$http', '$resource', function($http, $resource) {
     var vm = this;
-
 
     vm.personId = 5500;
     vm.personName = 'Aaron Butler';
-
-    vm.sum = 1 + 4;
 
     vm.resultList = [];
     vm.resultTotalRows = 0;
