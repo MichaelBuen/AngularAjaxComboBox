@@ -11,7 +11,10 @@ angular.module('kel.ui', []).directive('kelAjaxCombobox', ['$document', '$timeou
             resultTotalRows : '=',
             selectedText : '=',
             selectedValue : '=',
-            width : '='
+            width : '=',
+            pageSize : '=',
+
+            ngChange : '&'
         },
         link: function(scope, element, attr){
 
@@ -21,7 +24,11 @@ angular.module('kel.ui', []).directive('kelAjaxCombobox', ['$document', '$timeou
             var ticks = now.getTime();
             vm.uxUnique = 'um' + ticks; // unique marker
 
-            var _pageSize = 10;
+            if (!(vm.pageSize > 0)) {
+                vm.pageSize = 10;
+            }
+
+            var _pageSize = vm.pageSize;
 
             vm.pageNumber = 1; // one-based
             vm.fetchDone = false;
@@ -30,8 +37,19 @@ angular.module('kel.ui', []).directive('kelAjaxCombobox', ['$document', '$timeou
             vm.oldUserInput = vm.userInput;
             vm.totalPage = 0;
 
+
+            var height = _pageSize * 20 + 36;
+            vm.cbStyle = { height:  height + "px" };
+            var navOffset = _pageSize * 20 + 1;
+            vm.cbNavStyle =  { top: navOffset + "px" };
+
             var _divs = angular.element(element).find('div');
             var _ccb = _divs[3]; // get the custom-combobox div
+
+            // console.log( angular.element(_ccb) );
+
+
+
 
             angular.element(_ccb).bind('mousewheel DOMMouseScroll', function(e) {
 
@@ -79,7 +97,7 @@ angular.module('kel.ui', []).directive('kelAjaxCombobox', ['$document', '$timeou
                     if (vm.highlightedRow > 0)
                     vm.highlightedRow = 0;
                 }
-            };
+            }
 
             vm.goToNextPage = goToNextPage;
 
@@ -95,7 +113,7 @@ angular.module('kel.ui', []).directive('kelAjaxCombobox', ['$document', '$timeou
                         vm.highlightedRow = vm.resultList.length - 1;
                     }
                 }
-            };
+            }
 
 
             function getSegmentSize() {
@@ -141,7 +159,7 @@ angular.module('kel.ui', []).directive('kelAjaxCombobox', ['$document', '$timeou
 
 
                 $q.all([
-                    vm.resultGetter({ userInput: filter, pageNumber : vm.pageNumber }).$promise
+                    vm.resultGetter({ userInput: filter, pageNumber : vm.pageNumber, pageSize : _pageSize }).$promise
                 ]).then(function(a) {
 
 
@@ -154,8 +172,6 @@ angular.module('kel.ui', []).directive('kelAjaxCombobox', ['$document', '$timeou
                         if (vm.highlightedRow > vm.resultList.length - 1)
                             vm.highlightedRow = vm.resultList.length - 1;
 
-
-
                     });
 
                 })
@@ -164,7 +180,6 @@ angular.module('kel.ui', []).directive('kelAjaxCombobox', ['$document', '$timeou
 
             vm.setHighlightedRow = function(index) {
                 vm.highlightedRow = index;
-                // event.preventDefault();
             };
 
             function selectHighlighted() {
@@ -178,7 +193,6 @@ angular.module('kel.ui', []).directive('kelAjaxCombobox', ['$document', '$timeou
                 else {
                     vm.userInput = vm.oldUserInput;
                 }
-
             }
 
             vm.navigateByKey = function(event) {
@@ -311,7 +325,7 @@ angular.module('kel.ui', []).directive('kelAjaxCombobox', ['$document', '$timeou
 
             vm.closePopup = function() {
                 vm.isShowList = false;
-            }
+            };
 
             vm.search = function() {
                 vm.isShowList = true;
@@ -329,6 +343,8 @@ angular.module('kel.ui', []).directive('kelAjaxCombobox', ['$document', '$timeou
                 vm.isShowList = false;
 
                 vm.highlightedRow = 0;
+
+                vm.ngChange();
             };
 
 
@@ -351,7 +367,7 @@ angular.module('kel.ui', []).directive('kelAjaxCombobox', ['$document', '$timeou
                 isChildOfComboBox = false;
 
                 var target = getTarget(event);
-                var parent = angular.element(event.target);
+                var parent = angular.element(target);
 
                 for(var i = 0; i < 20; ++i) {
 
@@ -377,7 +393,7 @@ angular.module('kel.ui', []).directive('kelAjaxCombobox', ['$document', '$timeou
 
             function getTarget(e) {
                 var targ;
-                if (!e) var e = window.event;
+                if (!e) e = window.event;
                 if (e.target) targ = e.target;
                 else if (e.srcElement) targ = e.srcElement;
                 if (targ.nodeType == 3) // defeat Safari bug

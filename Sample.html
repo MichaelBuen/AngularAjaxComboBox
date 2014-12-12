@@ -31,11 +31,24 @@
          result-list="c.resultList"
          result-total-rows="c.resultTotalRows"
          selected-value="'id'"
-         selected-text="'fullName'"></kel-ajax-combobox>
+         selected-text="'fullName'"
+         ng-change="c.theValueChanged()"
+         page-size="20"></kel-ajax-combobox>
 
 
     <br/>
-    <input/>
+
+
+    <input type="checkbox"/>
+
+    <input type="text" ng-model="x.lastname"/>
+
+    <input type="text" ng-model="x.firstname"/>
+
+    {{x}}
+
+    <input type="text" ng-model="lastname"/>
+
 
 </body>
 </html>

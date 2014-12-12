@@ -5,6 +5,8 @@ var app = angular.module('TheApp', ['ngResource', 'kel.ui']);
 app.controller('TheController', ['$http', '$resource', function($http, $resource) {
     var vm = this;
 
+    vm.x = {};
+
     vm.personId = 5500;
     vm.personName = 'Aaron Butler';
 
@@ -15,10 +17,14 @@ app.controller('TheController', ['$http', '$resource', function($http, $resource
 
     vm.resultGetter = function(e) {
             // return  the promise
-            return dataRest.get({ userInput : e.userInput, pageNumber : e.pageNumber }, function(result) {
+            return dataRest.get({ userInput : e.userInput, pageNumber : e.pageNumber, pageSize : e.pageSize }, function(result) {
                 vm.resultList = result.persons;
                 vm.resultTotalRows = result.totalRows;
             });
+    };
+
+    vm.theValueChanged = function() {
+        console.log('hey')
     };
 
 }]);

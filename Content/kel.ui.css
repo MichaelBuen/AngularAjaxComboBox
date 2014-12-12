@@ -4,11 +4,10 @@ div.custom-combobox {
     background-color: white;
 
     top: 0;
-    left: 0px;
+    left: 0;
     bottom: 0;
     right: 0;
 
-    height: 236px;
 
     border-width: 1px;
     border-style:  solid;
@@ -22,14 +21,11 @@ div.custom-combobox {
 
     z-index: 1000;
 }
-div.custom-combox-navigation {
+div.custom-combobox-navigation {
     position: absolute;
 
-    /*height: 240px;*/
 
-
-    top: 201px;
-    left: 0px;
+    left: 0;
     bottom: 0;
     right: 0;
 
@@ -44,7 +40,7 @@ div.custom-combox-navigation {
     background-color: lightgray;
 }
 div.custom-combobox ul {
-    padding: 0px;
+    padding: 0;
     list-style-position: inside;
 }
 div.custom-combobox > ul > li {
@@ -59,7 +55,7 @@ div.custom-combobox > ul > li {
     /*color: white;*/
 /*}*/
 
-div.custom-combox-navigation .pagination {
+div.custom-combobox-navigation .pagination {
     margin: 2px !important;
 }
 
