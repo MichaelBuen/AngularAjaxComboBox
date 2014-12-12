@@ -57,7 +57,7 @@ app.js definition. add the 'kel.ui' on the module's dependencies
     
         vm.resultGetter = function(e) {
                 // return  the promise
-                return dataRest.get({ userInput : e.userInput, pageNumber : e.pageNumber }, function(result) {
+                return dataRest.get({ userInput : e.userInput, pageNumber : e.pageNumber, pageSize : e.pageSize }, function(result) {
                     vm.resultList = result.persons;
                     vm.resultTotalRows = result.totalRows;
                 });
@@ -75,4 +75,5 @@ To change the width of the combox add a width attribute, e.g.,
            selected-value="'id'"
            selected-text="'fullName'"
            width="'350px'"
+           pageSize=20
       ></kel-ajax-combobox>
