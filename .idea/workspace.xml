@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="13c1dc98-1dbc-4e73-a74c-d241ec8e2716" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+    <list default="true" id="13c1dc98-1dbc-4e73-a74c-d241ec8e2716" name="Default" comment="Corrected attribute convention">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AngularPagedCombobox.iws" />
@@ -372,7 +371,13 @@
       <option name="project" value="LOCAL" />
       <updated>1418378916821</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Corrected attribute convention">
+      <created>1418379108136</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1418379108136</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -418,7 +423,8 @@
     <MESSAGE value="Removed jQuery library. Why bootstrap is always bundled with jQuery? :(" />
     <MESSAGE value="Added page size setting" />
     <MESSAGE value="Documented pageSize property" />
-    <option name="LAST_COMMIT_MESSAGE" value="Documented pageSize property" />
+    <MESSAGE value="Corrected attribute convention" />
+    <option name="LAST_COMMIT_MESSAGE" value="Corrected attribute convention" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -865,14 +871,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.44" vertical-offset="889" max-vertical-offset="1445">
-          <caret line="75" column="37" selection-start-line="75" selection-start-column="37" selection-end-line="75" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Scripts/kel.ui.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="5574" max-vertical-offset="7004">
@@ -885,6 +883,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-12.142858" vertical-offset="0" max-vertical-offset="595">
           <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.44" vertical-offset="889" max-vertical-offset="1445">
+          <caret line="75" column="37" selection-start-line="75" selection-start-column="37" selection-end-line="75" selection-end-column="37" />
           <folding />
         </state>
       </provider>
