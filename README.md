@@ -75,5 +75,5 @@ To change the width of the combox add a width attribute, e.g.,
            selected-value="'id'"
            selected-text="'fullName'"
            width="'350px'"
-           pageSize=20
+           page-size=20
       ></kel-ajax-combobox>
