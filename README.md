@@ -77,3 +77,6 @@ To change the width of the combox add a width attribute, e.g.,
            width="'350px'"
            page-size=20
       ></kel-ajax-combobox>
+
+
+Sample REST implementation: http://www.anicehumble.com/2014/11/angular-ajax-combobox.html
