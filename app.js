@@ -13,15 +13,24 @@ app.controller('TheController', ['$http', '$resource', function($http, $resource
     vm.resultList = [];
     vm.resultTotalRows = 0;
 
-    var dataRest = $resource('http://localhost:63692/api/AdventureWorksPeople');
+    var dataRest = $resource('http://localhost:50544/api/AdventureWorksPeople');
 
     vm.resultGetter = function(e) {
-            // return  the promise
-            return dataRest.get({ userInput : e.userInput, pageNumber : e.pageNumber, pageSize : e.pageSize }, function(result) {
-                vm.resultList = result.persons;
-                vm.resultTotalRows = result.totalRows;
-            });
+        return dataRest.get({ userInput : e.userInput, pageNumber : e.pageNumber, pageSize : e.pageSize }, function(result) {
+            vm.resultList = result.persons;
+            vm.resultTotalRows = result.totalRows;
+        });
     };
+
+    //// This works too:
+
+    //vm.resultGetter = function(e) {
+    //        return dataRest.get({ userInput : e.userInput, pageNumber : e.pageNumber, pageSize : e.pageSize }).$promise.then(function(result) {
+    //            vm.resultList = result.persons;
+    //            vm.resultTotalRows = result.totalRows;
+    //        });
+    //};
+
 
     vm.theValueChanged = function() {
         console.log('hey')

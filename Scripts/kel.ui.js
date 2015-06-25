@@ -144,7 +144,7 @@ angular.module('kel.ui', []).directive('kelAjaxCombobox', ['$document', '$timeou
                     doSearch();
                 }
                 else
-                    goToNextPage();
+                    goToPreviousPage();
             };
 
 
@@ -158,23 +158,24 @@ angular.module('kel.ui', []).directive('kelAjaxCombobox', ['$document', '$timeou
                     filter = null;
 
 
-                $q.all([
-                    vm.resultGetter({ userInput: filter, pageNumber : vm.pageNumber, pageSize : _pageSize }).$promise
-                ]).then(function(a) {
+                var promise = vm.resultGetter({ userInput: filter, pageNumber : vm.pageNumber, pageSize : _pageSize });
+
+                if (promise.$promise != undefined)
+                    promise = promise.$promise;
+
+                promise.then(function(a) {
+                        vm.$applyAsync(function() {
+
+                            vm.fetchDone = true;
+                            vm.totalPage = Math.ceil(vm.resultTotalRows / _pageSize);
+
+                            if (vm.highlightedRow > vm.resultList.length - 1)
+                                vm.highlightedRow = vm.resultList.length - 1;
+
+                        });
+                     });
 
 
-                    vm.$watch('resultTotalRows',function(newVal, oldVal) {
-
-                        vm.fetchDone = true;
-                        vm.totalPage = Math.ceil(vm.resultTotalRows / _pageSize);
-
-
-                        if (vm.highlightedRow > vm.resultList.length - 1)
-                            vm.highlightedRow = vm.resultList.length - 1;
-
-                    });
-
-                })
 
             } // doSearch
 
